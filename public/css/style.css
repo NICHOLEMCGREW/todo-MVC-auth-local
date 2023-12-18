@@ -1,0 +1,56 @@
+h1{
+    color: red;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.not{
+    text-decoration: underline;
+}
+
+.todo-list-item .confirm {
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(51, 212, 100);
+    margin-left: 5px;
+    max-height: 30px;
+    font-family: 'Edu TAS Beginner', sans-serif;
+    display: block;
+}
+
+.todo-list-item .cancel {
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(223, 43, 43);
+    margin-left: 5px;
+    max-height: 30px;
+    display: block;
+}
+
+.todo-list-item div {
+    flex-grow: 2;
+}
+
+.todo-list-item .edit {
+    color: rgb(143, 233, 58);
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.todo-list-item .remove {
+    color: red;
+    margin-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
